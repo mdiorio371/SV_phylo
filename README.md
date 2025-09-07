@@ -47,9 +47,6 @@ SV_SNP_tree <- annotate_tree(SV_clusters, snp_clusters)
 plot(SV_SNP_tree, main = "SV phylogeny")
 
 
-
-
-
 #5. 
 
 SV_clusters <- (dist_mat, method = "nj")
