@@ -16,14 +16,19 @@ It builds on the [`SVMC`](https://github.com/mdiorio371/SVMC) package, which per
 The package scores SVs by their contribution to clustering and phylogenetic separation.  
 Variants above the impact threshold can be highlighted in a **lollipop plot**:
 
-![Impactful SVs](figures/impact_plot.png)
+
+<p align="center">
+  <img src="figures/impact_plot.png" width="450"/>
+</p>
 
 ---
 
 ### 2. Viewing SVs in a phylogenetic context
 Impactful SVs can then be visualized alongside synteny comparisons and a dendrogram:  
 
-![SV phylogeny](figures/sv_phylo.png)
+<p align="center">
+  <img src="figures/sv_phylo.png" width="450"/>
+</p>
 
 
 ## Installation
