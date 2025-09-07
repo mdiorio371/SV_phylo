@@ -1,4 +1,3 @@
-[![Codecov test coverage](https://codecov.io/gh/your-username/SV_phylo/branch/main/graph/badge.svg)](https://app.codecov.io/gh/your-username/SV_phylo)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 ![Status](https://img.shields.io/badge/status-work--in--progress-orange)
 
