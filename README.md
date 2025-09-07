@@ -11,6 +11,21 @@ It builds on the [`SVMC`](https://github.com/mdiorio371/SVMC) package, which per
 
 ---
 
+
+### 1. Identifying impactful structural variants
+The package scores SVs by their contribution to clustering and phylogenetic separation.  
+Variants above the impact threshold can be highlighted in a **lollipop plot**:
+
+![Impactful SVs](figures/impact_plot.png)
+
+---
+
+### 2. Viewing SVs in a phylogenetic context
+Impactful SVs can then be visualized alongside synteny comparisons and a dendrogram:  
+
+![SV phylogeny](figures/sv_phylo.png)
+
+
 ## Installation
 
 Both **SV_phylo** and [**SVMC**](https://github.com/mdiorio371/SVMC) are needed: 
