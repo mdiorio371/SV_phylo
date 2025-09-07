@@ -5,8 +5,8 @@
 **SV_phylo** is an R package for constructing phylogenies with **structural variant (SV) data** in bacterial genomes.  
 It builds on the [`SVMC`](https://github.com/mdiorio371/SVMC) package, which performs SV mapping and characterization, by providing methods to:
 
-- Cluster by SV recurrence 
-- Predict systematically impactful SVs
+- Cluster large-scale SVs
+- Calculate systematic impact scores for each SV based on genetic distance
 - Compare SV-based phylogenies with SNP/reference trees  
 
 ---
@@ -39,8 +39,12 @@ SV_clusters <- sv_cluster(sv_table, minLength = 5e4)
 cluster_subsample <- subsample_sv_clusters(SV_clusters, n = 3)
 snp_clusters <- snp_phylo(cluster_subsample)
 
+#4. Identify phylogenetically impactful SVs
+
+impact_SVs <- SV_SNP_Models(SV_clusters, snp_clusters)
+
 #4. Plot phylo tree with annotated SVs
-SV_SNP_tree <- annotate_tree(SV_clusters, snp_clusters)
+SV_SNP_tree <- annotate_tree(impact_SVs$dendro)
 
 plot(SV_SNP_tree, main = "SV phylogeny")
 
