@@ -23,7 +23,7 @@ Score recurrent SVs by their contribution to clustering and phylogenetic separat
 ---
 
 ### 2. Viewing SVs in a phylogenetic context
-Impactful SVs can then be visualized alongside synteny comparisons and a dendrogram:  
+
 
 <p align="center">
   <img src="figures/sv_phylo.png" width="450"/>
