@@ -42,7 +42,7 @@ install.packages("devtools")
 devtools::install_github("mdiorio371/SVMC")
 
 # then install SV_phylo
-devtools::install_github("your-username/SV_phylo")
+devtools::install_github("mdiorio371/SV_phylo")
 
 
 library(SVMC)
