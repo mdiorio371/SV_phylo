@@ -29,6 +29,10 @@ Score recurrent SVs by their contribution to clustering and phylogenetic separat
   <img src="figures/sv_phylo.png" width="450"/>
 </p>
 
+### 3. SV phylogeny model based on recurrence and exclusivity
+<p align="center">
+  <img src="figures/SV_network.png" width="450"/>
+</p>
 
 ## Installation
 
