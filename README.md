@@ -76,4 +76,8 @@ SV_clusters <- (dist_mat, method = "nj")
 # 5. Plot the tree
 plot(tree, main = "SV-based phylogeny")
 
+
+# 6. Show 
+
+
 ```
